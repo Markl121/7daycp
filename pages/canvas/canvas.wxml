@@ -1,0 +1,11 @@
+<view class='preview'>
+  <image src='../../usdesign/start.png' wx:if="{{!hasUserInfo}}" class="button-make" open-type="getUserInfo" bindtap="getImageInfo"></image>
+  <block wx:else>
+    <canvas style="width:80%;height:80%" canvas-id="myCanvas"></canvas>
+    <!--style="width:100%;height:1000rpx"-->
+    <image wx:if="{{!clickInfo}}" src='../../usdesign/save.png' class="button-done" bindtap="savePic"></image>
+    <image wx:if="{{!clickInfo}}" src='../../usdesign/info.png' class="button-info" bindtap="showInfo"></image>
+    <image wx:if="{{clickInfo}}" src='../../usdesign/info.jpg' class="pointInfo"></image>
+    <image wx:if="{{clickInfo}}" src='../../usdesign/save.png' class="button-done2" bindtap="savePic"></image>
+  </block>
+</view>

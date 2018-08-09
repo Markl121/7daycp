@@ -1,0 +1,15 @@
+<view class="test-bg">
+  <image src="../../usdesign/four.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+<view class="section__title">[16/16] 最后一题！请选一个方向！</view>
+      <radio-group name="sixteen" class="flex-col" bindchange="radioChange">
+        <label class="s1">
+          <radio value="a" color='transparent'/>东</label>
+        <label class="s2">
+          <radio value="b" color='transparent'/>南</label>
+        <label class="s3">
+          <radio value="c" color='transparent' />西</label>
+        <label class="s4">
+          <radio value="d" color='transparent' />北</label>
+      </radio-group>

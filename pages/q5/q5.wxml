@@ -1,0 +1,16 @@
+
+<view class="test-bg">
+  <image src="../../usdesign/four.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+<view class="section__title">[5/16] 在路上突然被工读生堵上，要你填一份怪怪的问卷，你有点怀疑资料最后的流向，所以不愿太认真填写，下列哪一个项目你会谎报？</view>
+<radio-group name="five" bindchange="radioChange">
+  <label class="s1">
+    <radio value="a" color='transparent' />姓名</label>
+  <label class="s2">
+    <radio value="b" color='transparent' />电话</label>
+  <label class="s3">
+    <radio value="c" color='transparent' />年龄</label>
+  <label class="s4">
+    <radio value="d" color='transparent' />婚姻状况</label>
+</radio-group>

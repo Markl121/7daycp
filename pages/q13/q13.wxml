@@ -1,0 +1,16 @@
+
+<view class="test-bg">
+  <image src="../../usdesign/four.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+<view class="section__title">[13/16] 这里有5个杯子，其中4个都有毒，其中一个没有，你认为是哪一种？</view>
+      <radio-group name="thirteen" bindchange="radioChange">
+        <label class="s1">
+          <radio value="a" color='transparent'/>刚挤出来的牛奶</label>
+        <label class="s2">
+          <radio value="b" color='transparent'/>一杯白开水</label>
+        <label class="s3">
+          <radio value="c" color='transparent' />半杯饮料</label>
+        <label class="s4">
+          <radio value="d" color='transparent' />热忽忽的咖啡</label>
+      </radio-group>

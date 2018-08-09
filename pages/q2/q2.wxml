@@ -1,0 +1,18 @@
+<!--pages/q2/q2.wxml-->
+<view class="test-bg">
+  <image src="../../usdesign/five.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+<view class="section__title">[2/16] 如果你五个手指都破了，你只能包一个，你包哪个？</view>
+<radio-group name="two" bindchange="radioChange">
+  <label class="s1">
+    <radio value="10" color='transparent' />选择大拇指</label>
+  <label class="s2">
+    <radio value="8" color='transparent' />选择食指</label>
+  <label class="s3">
+    <radio value="6" color='transparent' />选择中指</label>
+  <label class="s4">
+    <radio value="4" color='transparent' />选择无名指</label>
+  <label class="s5">
+    <radio value="2" color='transparent' />选择小拇指</label>
+</radio-group>

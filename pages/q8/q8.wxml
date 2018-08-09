@@ -1,0 +1,18 @@
+
+<view class="test-bg">
+  <image src="../../usdesign/five.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+    <view class="section__title">[8/16] 如果你在一间精品店里看到一件自己十分喜欢的摆设，但价钱实在太贵了，你会怎样跟老板讲价呢？</view>
+      <radio-group name="eight" bindchange="radioChange">
+        <label class="s1">
+          <radio value="a" color='transparent'/>直接向老板讲价</label>
+        <label class="s2">
+          <radio value="b" color='transparent'/>找个也喜欢类似东西的朋友一起买，让老板让价!</label>
+        <label class="s3">
+          <radio value="c" color='transparent' />一直看着那个摆件，直到老板自己主动降价！</label>
+        <label class="s4">
+          <radio value="d" color='transparent' />来回好多次，直到老板主动降价</label>
+        <label class="s5">
+          <radio value="e" color='transparent' />既然喜欢，老板又不降价，忍痛买下来！</label>
+      </radio-group>

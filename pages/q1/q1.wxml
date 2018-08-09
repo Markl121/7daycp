@@ -1,0 +1,15 @@
+<view class="test-bg">
+  <image src="../../usdesign/four.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+<view class="section__title">[1/16] 如果你的恋人告诉你，Ta不喜欢吃西瓜，你本能得觉得Ta的理由是什么呢?</view>
+<radio-group name="one" class="flex-col" bindchange="radioChange">
+  <label class = "s1">
+    <radio value="8" color='transparent'/>觉得吃西瓜要吐子很麻烦</label>
+  <label class = "s2">
+    <radio value="2" color='transparent' />切起来很麻烦</label>
+  <label class = "s3">
+    <radio value="4" color='transparent'/>不喜欢西瓜的味道</label>
+  <label class = "s4">
+    <radio value="6" color='transparent'/>西瓜水份很多一吃就觉得撑</label>
+</radio-group>

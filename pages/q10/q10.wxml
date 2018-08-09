@@ -1,0 +1,18 @@
+
+<view class="test-bg">
+  <image src="../../usdesign/five.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+      <view class="section__title">[10/16] 一个和他吵架的夜晚，当你带着委屈哀怨的心情恍恍惚惚入睡，你觉得出现在你梦中的梦境会是？</view>
+      <radio-group name="ten" bindchange="radioChange">
+        <label class="s1">
+          <radio value="9" color='transparent'/>你一个人独自在河边沉思，清澈的河水仿佛洗净了你的心灵</label>
+        <label class="s2">
+          <radio value="3" color='transparent'/>心仪的他满怀诚意的跟你道歉，不但说了许多甜言蜜语，还送礼物给你</label>
+        <label class="s3">
+          <radio value="5" color='transparent' />你进入了一个神秘的空间，那里只有一个纺织车不断地转呀转，转得你心慌</label>
+        <label class="s4">
+          <radio value="7" />你到一座庄园旅行，受到了当地居民热情的款待</label>
+        <label class="s5">
+          <radio value="1" color='transparent' />你身陷在一座山谷里拼命的想要逃，却不断有东西逼近你包围你，让你动弹不得</label>
+      </radio-group>

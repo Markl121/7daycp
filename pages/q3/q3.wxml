@@ -1,0 +1,18 @@
+
+<view class="test-bg">
+  <image src="../../usdesign/five.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+<view class="section__title">[3/16] 当你走进一个森林，会遇到很多动物，你最想先遇到的是什么？</view>
+<radio-group name="three" class="flex-col" bindchange="radioChange">
+  <label class="s1">
+    <radio value="a" color='transparent'/>兔子</label>
+  <label class="s2">
+    <radio value="b" color='transparent'/>猪</label>
+  <label class="s3">
+    <radio value="c" color='transparent' />鹿</label>
+  <label class="s4">
+    <radio value="d" color='transparent' />老虎</label>
+  <label class="s5">
+    <radio value="e" color='transparent' />狼</label>
+</radio-group>

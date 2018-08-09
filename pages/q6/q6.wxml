@@ -1,0 +1,16 @@
+
+<view class="test-bg">
+  <image src="../../usdesign/four.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+    <view class="section__title">[6/16] 你和朋友们一起到外面去吃饭，服务小姐刚刚帮你倒好茶水，你就不小心把水泼了出来，并且弄得满桌都是，根据习惯，你会使用以下哪种纸把桌子擦拭干净？ </view>
+    <radio-group name="six" bindchange="radioChange">
+      <label class="s1">
+        <radio value="2" color='transparent' />卷纸</label>
+      <label class="s2">
+        <radio value="4" color='transparent' />湿纸巾</label>
+      <label class="s3">
+        <radio value="3" color='transparent' />面巾纸</label>
+      <label class="s4">
+        <radio value="1" color='transparent' />随手一张纸</label>
+    </radio-group>

@@ -1,0 +1,14 @@
+
+<view class="test-bg">
+  <image src="../../usdesign/three.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+    <view class="section__title">[7/16] 你的新房子正在装潢，你会在哪一部分花最多的钱？</view>
+      <radio-group name="seven" bindchange="radioChange" >
+        <label class="s1">
+          <radio value="8" color='transparent'/>客厅的沙发、摆设</label>
+        <label class="s2">
+          <radio value="6" color='transparent'/>卧室的床</label>
+        <label class="s3">
+          <radio value="4" color='transparent' />浴室、厨房</label>
+      </radio-group>

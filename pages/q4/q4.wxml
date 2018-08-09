@@ -1,0 +1,18 @@
+
+<view class="test-bg">
+  <image src="../../usdesign/five.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+<view class="section__title">[4/16] 你决定搬出去一个人住，可是公寓里空无一物，你最先想买什么？</view>
+      <radio-group name="four" bindchange="radioChange">
+        <label class="s1">
+          <radio value="a" color='transparent'/>窗帘</label>
+        <label class="s2">
+          <radio value="b" color='transparent'/>床</label>
+        <label class="s3">
+          <radio value="c" color='transparent' />洗衣机</label>
+        <label class="s4">
+          <radio value="d" color='transparent' />电话</label>
+        <label class="s5">
+          <radio value="e" color='transparent' />冰箱</label>
+      </radio-group>

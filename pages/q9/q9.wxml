@@ -1,0 +1,16 @@
+<!--pages/q9/q9.wxml-->
+<view class="test-bg">
+  <image src="../../usdesign/four.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+<view class="section__title">[9/16] 你面前有一杯咖啡、一罐可乐、一个苹果、一个汉堡，如果只能拿一样来吃的话，你会选哪样呢？</view>
+<radio-group name="nine" class="flex-col" bindchange="radioChange">
+  <label class="s1">
+    <radio value="a" color='transparent' />咖啡</label>
+  <label class="s2">
+    <radio value="b" color='transparent' />可乐</label>
+  <label class="s3">
+    <radio value="c" color='transparent' />苹果</label>
+  <label class="s4">
+    <radio value="d" color='transparent' />汉堡</label>
+</radio-group>

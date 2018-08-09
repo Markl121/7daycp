@@ -1,0 +1,16 @@
+
+<view class="test-bg">
+  <image src="../../usdesign/four.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+<view class="section__title">[12/16] 假如跟男友或女友悠闲的散步，最喜欢走的路是如下哪种的呢?</view>
+      <radio-group name="twelve" bindchange="radioChange">
+        <label class="s1">
+          <radio value="a" color='transparent'/>热闹繁华的城市大道，人群熙攘，五光十色</label>
+        <label class="s2">
+          <radio value="b" color='transparent'/>绵长悠远的乡间小道，令人心旷神怡</label>
+        <label class="s3">
+          <radio value="c" color='transparent' />空旷的大道上寂静无声，任你思绪飞扬</label>
+        <label class="s4">
+          <radio value="d" color='transparent' />弯蜒曲折的山路，风光别样好</label>
+      </radio-group>

@@ -1,0 +1,16 @@
+
+<view class="test-bg">
+  <image src="../../usdesign/four.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+<view class="section__title">[14/16] 假如某天你独自一人在个岛上迷路了这时你已经1天没吃东西了很饿很饿你会选择以下什么吃的？</view>
+      <radio-group name="fourteen" bindchange="radioChange">
+        <label class="s1">
+          <radio value="1" color='transparent'/>柳橙</label>
+        <label class="s2">
+          <radio value="2" color='transparent'/>水煮蛋</label>
+        <label class="s3">
+          <radio value="3" color='transparent' />馒头</label>
+        <label class="s4">
+          <radio value="4" color='transparent' />香蕉</label>
+      </radio-group>

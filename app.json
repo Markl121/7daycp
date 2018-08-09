@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/success/success",
+    "pages/fail/fail",
+    "pages/canvas/canvas",
+    "pages/q1/q1",
+    "pages/q10/q10",
+    "pages/q11/q11",
+    "pages/q12/q12",
+    "pages/q13/q13",
+    "pages/q14/q14",
+    "pages/q15/q15",
+    "pages/q16/q16",
+    "pages/q2/q2",
+    "pages/q3/q3",
+    "pages/q4/q4",
+    "pages/q5/q5",
+    "pages/q6/q6",
+    "pages/q7/q7",
+    "pages/q8/q8",
+    "pages/q9/q9"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f6f6f6",
+    "navigationBarTitleText": "人生偏差值",
+    "navigationBarTextStyle":"black"
+  }
+}

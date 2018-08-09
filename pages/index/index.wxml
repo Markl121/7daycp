@@ -1,0 +1,9 @@
+ <view class="test-bg">
+    <image src="../../usdesign/bg.jpg" class="bg-image" mode="scaleToFill"></image>
+  </view>
+
+  <image src="../../usdesign/title.png" class="title"></image>
+  <navigator url="../q1/q1" open-type="redirect" hover-class="navigator-hover">
+    <image src="../../usdesign/pressstart.png" class="start_button"></image>
+  </navigator>
+

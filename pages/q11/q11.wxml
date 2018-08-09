@@ -1,0 +1,16 @@
+
+<view class="test-bg">
+  <image src="../../usdesign/four.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+      <view class="section__title">[11/16] 问题：“ 幸福的恋情是［ ］”，你会在［ ］中填什么呢？</view>
+      <radio-group name="eleven" bindchange="radioChange">
+        <label class="s1">
+          <radio value="a" color='transparent'/>充满夏天的感觉</label>
+        <label class="s2">
+          <radio value="b" color='transparent'/>俩个人在一起</label>
+        <label class="s3">
+          <radio value="c" color='transparent' />灿烂的</label>
+        <label class="s4">
+          <radio value="d" color='transparent' />温柔的</label>
+      </radio-group>

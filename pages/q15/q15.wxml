@@ -1,0 +1,15 @@
+<view class="test-bg">
+  <image src="../../usdesign/four.jpg" class="bg-image" mode="scaleToFill"></image>
+</view>
+
+<view class="section__title">[15/16] 如果一辈子只做一件家务，你会选择？</view>
+<radio-group name="fifteen" class="flex-col" bindchange="radioChange">
+  <label class="s1">
+    <radio value="5" color='transparent' />洗碗</label>
+  <label class="s2">
+    <radio value="7" color='transparent' />拖地</label>
+  <label class="s3">
+    <radio value="9" color='transparent' />做饭</label>
+  <label class="s4">
+    <radio value="1" color='transparent' />倒垃圾</label>
+</radio-group>
